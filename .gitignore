@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual studio files
+*.ipch
+*.db
+*.opendb
+*.suo
+*.tlog
+*.ilk
+*.pdb
+*.user
+*.idb
+*.log
+*.iobj
+*.ipdb
+*.db-shm
+*.db-wal
+*.vs
+
+# contest files
+level*
+*.zip
+*.pdf
