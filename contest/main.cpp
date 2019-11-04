@@ -5,14 +5,14 @@ int main()
 {
 	std::string FOLDER_PREFIX = "level";
 
-	unsigned int LEVEL_NUMBER = 5;
-	unsigned int NUM_TEST_LEVELS = 5;
+	unsigned int LEVEL_NUMBER = 1;
+	unsigned int NUM_TEST_LEVELS = 4;
 
-	for (unsigned int nLevelFile = 1; nLevelFile <= NUM_TEST_LEVELS; ++nLevelFile)
+	for (unsigned int nLevelFile = 0; nLevelFile < NUM_TEST_LEVELS; ++nLevelFile)
 	{
 		std::ostringstream ssInputFileName, ssOutputFileName;
-		ssInputFileName << FOLDER_PREFIX << LEVEL_NUMBER << "/level" << LEVEL_NUMBER << "_" << nLevelFile << ".in";
-		ssOutputFileName << FOLDER_PREFIX << LEVEL_NUMBER << "/level" << LEVEL_NUMBER << "_" << nLevelFile << "_output.txt";
+		ssInputFileName << FOLDER_PREFIX << LEVEL_NUMBER << "/level" << LEVEL_NUMBER << "-" << nLevelFile << ".in";
+		ssOutputFileName << FOLDER_PREFIX << LEVEL_NUMBER << "/level" << LEVEL_NUMBER << "-" << nLevelFile << "_output.txt";
 
 		std::cout << "Input File: " << ssInputFileName.str() << std::endl;
 		std::cout << "Output File: " << ssOutputFileName.str() << std::endl;
